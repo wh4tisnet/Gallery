@@ -2,7 +2,7 @@
 
 This project consists of a simple web page that displays a mini gallery of 4 photos.
 
-![Mini Galería](https://github.com/user-attachments/assets/debb8459-cd73-4f0b-9e94-011788f04d47)
+![image](https://github.com/user-attachments/assets/95641967-1a35-41ed-8638-309872bd19b1)
 
 ## Description
 
