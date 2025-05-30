@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery :3</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #000000, #0a0a0a, #1a1a1a);
+        }
+        section {
+            display: flex;
+            width: 90vw;
+            height: 90vh;
+        }
+
+        section img {
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .85;
+            transition: .5s ease;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+        }
+
+        section img:hover {
+            cursor: crosshair;
+            width: 400px;
+            opacity: 1;
+            filter: contrast(130%) brightness(110%);
+            box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <img src="berserk-guts-black-3840x2160-13632.jpg">
+        <img src="okarun-dandadan-3840x2160-19863.png">
+        <img src="saitama-dark-3840x2160-19846.png">
+        <img src="sasuke-uchiha-dark-3840x2160-19881.jpg">
+    </section>
+</body>
+</html>
